@@ -9,7 +9,7 @@ num2 = int(input("Please enter another postive number: "))
 
 def multiply(num1, num2):
     '''Function that takes in two positve integers and returns the product'''
-    if num1 >= 1 and num2 >= 1:
+    if num1 >= 1:
         if num2 == 1:
             return num1
         else:
