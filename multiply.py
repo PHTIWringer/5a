@@ -4,8 +4,8 @@
 # Date: 04/25/2024
 # Description: Program that takes two positive integers and returns the product of those two integers.
 
-num1 = int(input("Please enter a positive number: "))
-num2 = int(input("Please enter another postive number: "))
+# num1 = int(input("Please enter a positive number: "))
+# num2 = int(input("Please enter another postive number: "))
 
 def multiply(num1, num2):
     '''Function that takes in two positve integers and returns the product'''
@@ -17,5 +17,5 @@ def multiply(num1, num2):
     else:
         print("Error: postive number expected.")
 
-product = multiply(num1, num2)
-print(product)
+# product = multiply(num1, num2)
+# print(product)
